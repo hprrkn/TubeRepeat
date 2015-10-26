@@ -1,0 +1,15 @@
+{
+    "name": "TubeRepeat",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "Repeat!",
+
+    "content_security_policy": "script-src 'self' https://s.ytimg.com/yts/jsbin/www-widgetapi-vflsGqMeC/www-widgetapi.js https://www.youtube.com/player_api; object-src 'self'",
+
+    "browser_action": {
+        "default_icon": "19.png",
+        "default_title": "TubeRepeat",
+        "default_popup": "popup.html"
+    }
+}
